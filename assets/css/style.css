@@ -1,0 +1,100 @@
+
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/*----------nav------------*/
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.logo a {
+    color: #fafafa;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    font-size: 20px;
+}
+
+.nav-links {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.nav-links a {
+    color: #fafafa;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.nav-links a:hover {
+    color: darkgreen;
+}
+
+.logo a:hover{
+    color: darkgreen;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+/*-------------------callout container-----------*/
+
+.callout-container {
+
+        background: url("/assets/images/ash123.jpg") no-repeat right fixed; 
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+}
+
+/*-----------jumbotron------------*/
+
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0.75);
+    margin-top: 20%;
+    padding-bottom: 50px;
+
+}
+
+.jumbotron h1 {
+    color: #444;
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+
+}
+
+
+
+.jumbotron .lead {
+        font-size: 60px;
+        margin: 25px 0;
+        color: #444;
+}
+
+/*-----------button---------*/
+
+.btn {
+    border-radius: 10px;
+}
+
+.about-section {
+    background-color: rgba(0, 0, 0, 0.25);
+    margin-top: 20%;
+    padding-bottom: 50px;
+
+}
