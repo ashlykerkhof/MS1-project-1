@@ -3,7 +3,7 @@ body {
     font-family: "Lato", sans-serif;
     margin: 0;
     padding: 0;
-    background: url("/assets/images/Ash11.jpg") no-repeat top right fixed; 
+    background: url("Ash11.jpg") no-repeat top right fixed; 
         background-size: cover;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -230,23 +230,23 @@ body {
   }
 
 .item-1 { 
-    background-image: url('/assets/images/Ash.jpg');
+    background-image: url('Ash.jpg');
 }
 
 .item-2 { 
-    background-image: url('/assets/images/Ash11.jpg');
+    background-image: url('Ash11.jpg');
 }
 
 .item-3 { 
-    background-image: url('/assets/images/ashfull.jpg');
+    background-image: url('ashfull.jpg');
 }
 
 .item-4 { 
-    background-image: url('/assets/images/ashgreen.jpg');
+    background-image: url('ashgreen.jpg');
 }
 
 .item-5 { 
-    background-image: url('/assets/images/ashsmolder.jpg');
+    background-image: url('ashsmolder.jpg');
 }
 
   
