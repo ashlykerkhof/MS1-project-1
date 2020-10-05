@@ -3,7 +3,9 @@ body {
     font-family: "Lato", sans-serif;
     margin: 0;
     padding: 0;
-    background: url("Ash11.jpg") no-repeat top right fixed; 
+    overflow: hidden;
+    background: url("Ash11.jpg") no-repeat top fixed;
+    width: 100%; 
         background-size: cover;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -160,6 +162,7 @@ body {
   order: 3;
 }
 
+/*---------about-------*/
 
 .about h1 {
     padding-top: 30px;
@@ -184,6 +187,9 @@ body {
     margin-top: 30px;
     margin-bottom: 50px;
 }
+
+/*----------gallery-------*/
+
 .container-gallery{
     background-color: rgba(0, 0, 0, 0.8);
     padding-bottom: 35px;
@@ -255,13 +261,16 @@ body {
     width: 32px;
   }
 
+/*--------------showreel-----------*/
+
+
 .showreel-container {
     background-color: rgba(0, 0, 0, 0.8);
     padding-bottom: 35px;
     color: #fafafa;
     text-align: center;
-    padding-left: 15%;
-    padding-right: 15%;
+    
+
 }
 
 .showreel-container h1 {
@@ -282,11 +291,34 @@ body {
     margin-left: 30%;
 }
 
+/*------------CV------------*/
 
+.cv-container .col-12 {
+    background-color: darkgreen;
+    padding-bottom: 35px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
 
+/*----------------media--------------*/
 
 @media screen and (max-width:1024px){
-    .nav-links {
-    width: 50%;
+    .cv-container object{
+            max-width: 50%;
+    }
 }
+
+@media screen and (max-width:720px){
+    .cv-container object {
+        display: hidden;
+    }
+    body {
+        width: 100%;
+    }
+
+    .showreel-container iframe {
+        align-items: left;
+    }
 }
