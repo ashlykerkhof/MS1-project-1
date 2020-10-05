@@ -3,9 +3,7 @@ body {
     font-family: "Lato", sans-serif;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background: url("Ash11.jpg") no-repeat top fixed;
-    width: 100%; 
+    background: url("Ash11.jpg") no-repeat top right fixed;
         background-size: cover;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -174,7 +172,7 @@ body {
 }
 
 .about-container {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.9);
     padding-bottom: 35px;
     color: #fafafa;
     text-align: center;
@@ -191,7 +189,7 @@ body {
 /*----------gallery-------*/
 
 .container-gallery{
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: #172b0f;
     padding-bottom: 35px;
     color: #fafafa;
     text-align: center;
@@ -206,7 +204,7 @@ body {
     font-weight: 300;
     text-transform: uppercase;
     text-decoration: solid;
-    border: solid darkgreen;
+    border: solid black;
  }
 
  .para {
@@ -265,16 +263,18 @@ body {
 
 
 .showreel-container {
-    background-color: rgba(0, 0, 0, 0.8);
+     background-color: rgba(0, 0, 0, 0.9);
     padding-bottom: 35px;
     color: #fafafa;
     text-align: center;
-    
-
+    padding-left: 15%;
+    padding-right: 15%;
 }
+    
 
 .showreel-container h1 {
     padding-top: 30px;
+    margin: 50px 0 30px;
     font-size: 60px;
     font-weight: 300;
     text-transform: uppercase;
@@ -287,14 +287,14 @@ body {
     margin-bottom: 50px;
 }
 
-#showreel1 {
-    margin-left: 30%;
+.showreel-container .first {
+    text-align: left;
 }
 
 /*------------CV------------*/
 
-.cv-container .col-12 {
-    background-color: darkgreen;
+.cv-container {
+    background-color: #172b0f;
     padding-bottom: 35px;
     color: #fafafa;
     text-align: center;
@@ -302,23 +302,22 @@ body {
     padding-right: 15%;
 }
 
+.cv-container h1 {
+    padding-top: 30px;
+    margin: 50px 0 30px;
+    font-size: 60px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: solid;
+    border: solid black;
+}
+
 /*----------------media--------------*/
 
 @media screen and (max-width:1024px){
-    .cv-container object{
-            max-width: 50%;
-    }
+    
 }
 
 @media screen and (max-width:720px){
-    .cv-container object {
-        display: hidden;
-    }
-    body {
-        width: 100%;
-    }
 
-    .showreel-container iframe {
-        align-items: left;
-    }
 }
