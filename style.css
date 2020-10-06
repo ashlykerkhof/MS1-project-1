@@ -363,7 +363,7 @@ body {
 
 .contact-container {
     background-color: rgba(0, 0, 0, 0.75);
-    padding-bottom: 35px;
+    padding-bottom: 100px;
     color: #fafafa;
     text-align: center;
     padding-left: 15%;
@@ -386,16 +386,114 @@ body {
      color: white;
      margin-bottom: 1rem;
  }
+
+ /*---------footer------*/
+
+footer {
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+}
+
+ .social-media-links {
+    
+    text-align: right;
+    letter-spacing: 30px;
+    list-style: none;
+    color: darkgreen;
+    font-size: 35px;
+ }
+
+ .social-media-links li {
+     display: inline;
+ }
+
+ .social-media-links i{
+     font-size: 140%;
+     margin-top: 5px;
+     padding: 10px 10px;
+     color: darkgreen;
+ }
+
+ /*----------footer animation hover.css code-------*/
+
+ @-webkit-keyframes hvr-pop {
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+@keyframes hvr-pop {
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+.hvr-pop {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-pop:hover, .hvr-pop:focus, .hvr-pop:active {
+  -webkit-animation-name: hvr-pop;
+  animation-name: hvr-pop;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
 /*----------------media--------------*/
 
 @media screen and (max-width:1024px){
-    .cv-container iframe {
-        display: hidden;
+    
+    footer {
+        width: 100%;
+        
     }
+    .social-media-links {
+    
+    text-align: center;
+    letter-spacing: 15px;
+    list-style: none;
+    color: darkgreen;
+    font-size: 35px;
+    }
+    .social-media-links i{
+     font-size: 120%;
+     margin-top: 5px;
+     padding: 10px 10px;
+     color: darkgreen;
+ }
 }
 
 @media screen and (max-width:720px){
      .cv-container iframe {
         display: hidden;
     }
+
+    .navbar-logo {
+        font-size: 20px;
+    }
+    footer {
+        width: 100%;
+        
+    }
+    .social-media-links {
+    
+    text-align: left;
+    letter-spacing: 10px;
+    list-style: none;
+    color: darkgreen;
+    font-size: 35px;
+    }
+    .social-media-links i{
+     font-size: 80%;
+     margin-top: 5px;
+     padding: 10px 10px;
+     color: darkgreen;
+ }
 }
