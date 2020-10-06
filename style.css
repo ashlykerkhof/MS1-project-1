@@ -472,7 +472,11 @@ footer {
 
 @media screen and (max-width:720px){
      .cv-container iframe {
-        display: hidden;
+        display: none;
+    }
+
+    .agent-details {
+        display: none;
     }
 
     .navbar-logo {
