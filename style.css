@@ -471,6 +471,13 @@ footer {
 }
 
 @media screen and (max-width:720px){
+
+  body {
+      width: 100%;
+  }
+    .jumbotron h1 {
+        font-size: 60px;
+    }
      .cv-container iframe {
         display: none;
     }
