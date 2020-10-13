@@ -254,6 +254,7 @@ nav ul li a {
     border-radius: 40%;
     border: 3px solid #fff; 
 }
+/*-----------------slackoverflow----------*/
 
 .picture-circle:hover {   
     transform-origin:50% 50%;
@@ -571,7 +572,7 @@ html,
 
 nav ul li a {
     font-size: 16px;
-    
+
 }
 
     footer {
@@ -583,14 +584,14 @@ nav ul li a {
     text-align: center;
     letter-spacing: 15px;
     list-style: none;
-    color: darkgreen;
+    color: #3c6e71;
     font-size: 35px;
     }
     .social-media-links i{
      font-size: 120%;
      margin-top: 5px;
      padding: 10px 10px;
-     color: darkgreen;
+     color: #3c6e71;
  }
 }
 
@@ -754,13 +755,13 @@ html,
     text-align: left;
     letter-spacing: 10px;
     list-style: none;
-    color: darkgreen;
+    color: #3c6e71;
     font-size: 35px;
     }
     .social-media-links i{
      font-size: 80%;
      margin-top: 5px;
      padding: 10px 10px;
-     color: darkgreen;
+     color: #3c6e71;
  }
 }
