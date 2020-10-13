@@ -139,7 +139,10 @@ nav ul li a {
 .modal-body {
     background-color: #353535;
     font-family: 'Raleway', sans-serif;
+   
 }
+
+
 
 /*------------hover from hover.css---------*/
 
@@ -782,8 +785,9 @@ html,
         font-size: 15px;
     }
 
+
     .hero-image {
-        background-size: cover;
+        background-size: fixed;
     }
 
     .picture-circle {
