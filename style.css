@@ -59,7 +59,7 @@ nav ul li {
 nav ul li a {
       text-decoration: none;
       color: #fff;
-      font-size: 16px;
+      font-size: 20px;
 }
 
 .menu-icon {
@@ -559,9 +559,19 @@ footer {
 
 @media screen and (max-width:1024px){
     
-body {
-    width: 100%;
-    max-width: 100%;
+html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+  }
+
+.logo a{
+    font-size: 30px;
+}
+
+nav ul li a {
+    font-size: 16px;
+    
 }
 
     footer {
