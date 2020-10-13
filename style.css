@@ -68,48 +68,15 @@ nav ul li a {
       display: none;
 }
 
-@media(max-width: 786px) {
-
-      .logo {
-            position: fixed;
-            top: 0;
-            margin-top: 16px;
-      }
-
-      nav ul {
-            max-height: 0px;
-            background: #000;
-      }
-
-      nav.black ul {
-            background: #000;
-      }
-
-      .showing {
-            max-height: 34em;
-      }
-
-      nav ul li {
-            box-sizing: border-box;
-            width: 100%;
-            padding: 24px;
-            text-align: center;
-      }
-
-      .menu-icon {
-            display: block;
-      }
-
-}
 
 
 .menu ul li a:hover {
-    color: #d9d9d9;
+    color: #3c6e71;
     text-decoration: none;
 }
 
 .logo a:hover{
-    color: #d9d9d9;
+    color:#3c6e71;
     text-decoration: none;
 }
 
@@ -129,9 +96,6 @@ nav ul li a {
 
 /*-------------------callout container-----------*/
 
-/*------------about container-------*/
-
-
 
 .callout-container {
     width: 100%;
@@ -140,17 +104,22 @@ nav ul li a {
 .hero-image {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Ash11.jpg) fixed ;
     height: 100%;
-    background-position: top center;
+    background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     width: 100%;
     padding-bottom: 5%;
+    flex: 1;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
 }
 
+
+.hero-image:hover {
+    transition: flex 0.5s ease-in-out;
+}
 /*------------hover from hover.css---------*/
 
 @-webkit-keyframes hvr-pulse-grow {
@@ -171,6 +140,7 @@ nav ul li a {
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+
 }
 .hvr-pulse-grow:hover, .hvr-pulse-grow:focus, .hvr-pulse-grow:active {
   -webkit-animation-name: hvr-pulse-grow;
@@ -183,6 +153,7 @@ nav ul li a {
   animation-iteration-count: infinite;
   -webkit-animation-direction: alternate;
   animation-direction: alternate;
+   color: #3c6e71;
 }
  
 
@@ -210,7 +181,7 @@ nav ul li a {
         font-size: 60px;
         margin: 0px 0;
         color: #d9d9d9;
-        padding-bottom: 15px;
+        padding-bottom: 5px;
 }
 
 .jumbotron p {
@@ -227,16 +198,6 @@ nav ul li a {
     padding-left: 30px;
     padding-right: 30px;
     
-}
-
-.order-1 {
-  -ms-flex-order: 1;
-  order: 1;
-}
-
-.order-3 {
-  -ms-flex-order: 3;
-  order: 3;
 }
 
 /*---------about-------*/
@@ -513,6 +474,10 @@ footer {
     width: 100%;
 }
 
+.copy {
+    color: #fafafa;
+    }
+
  .social-media-links {
     
     text-align: right;
@@ -530,7 +495,7 @@ footer {
      font-size: 140%;
      margin-top: 5px;
      padding: 10px 10px;
-     color: #fafafa;
+     color: #3c6e71;
  }
 
  /*----------footer animation hover.css code-------*/
@@ -593,18 +558,65 @@ footer {
   body {
       width: 100%;
   }
+
+    .logo a{
+            position: fixed;
+            top: 0;
+            margin-top: 12px;
+            font-size: 20px;
+      }
+
+      nav ul {
+            max-height: 0px;
+            background: #000;
+      }
+
+      nav.black ul {
+            background: #000;
+      }
+
+      .showing {
+            max-height: 34em;
+      }
+
+      nav ul li {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 24px;
+            text-align: center;
+      }
+
+      .menu-icon {
+            display: block;
+      }
+
     .jumbotron h1 {
-        font-size: 60px;
+        font-size: 40px;
+    }
+
+    .jumbotron .lead {
+        font-size: 20px;
+    }
+
+    .jumbotron p {
+        font-size: 15px;
     }
 
     .picture-circle {
     display: none;
 }
 
-.showreel-container audio {
+.about-container p {
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+    .showreel-container audio {
     float: right;
 }
-     .cv-container iframe {
+    .cv-container iframe {
         display: none;
     }
 
