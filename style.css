@@ -4,7 +4,9 @@ body {
     margin: 0;
     padding: 0;
     border: 0;
+    overflow-x: hidden;
 }
+
 
 /*----------nav inspired by bootsnip!------------*/
 
@@ -533,6 +535,11 @@ footer {
 
 @media screen and (max-width:1024px){
     
+body {
+    width: 100%;
+    max-width: 100%;
+}
+
     footer {
         width: 100%;
         
@@ -553,9 +560,20 @@ footer {
  }
 }
 
-@media screen and (max-width:720px){
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5){
 
-  body {
+  html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+  }
+
+
+  nav {
       width: 100%;
   }
 
@@ -590,8 +608,15 @@ footer {
             display: block;
       }
 
+    .jumbotron {
+        margin-top: 140px;
+       margin-bottom: 100px;
+        padding-bottom: 50px;
+    }
+
     .jumbotron h1 {
         font-size: 40px;
+        margin-top: 20px;
     }
 
     .jumbotron .lead {
@@ -602,8 +627,18 @@ footer {
         font-size: 15px;
     }
 
+    .hero-image {
+        background-size: cover;
+    }
+
     .picture-circle {
     display: none;
+}
+
+.about h1 {
+     width: 100%;
+    font-size: 25px;
+    margin-left: 0%;
 }
 
 .about-container p {
@@ -613,9 +648,28 @@ footer {
     margin-bottom: 0;
 }
 
+.container-gallery h1 {
+     width: 100%;
+    font-size: 25px;
+    margin-left: 0%;
+}
+
+.showreel h1 {
+    width: 100%;
+    font-size: 25px;
+    margin-left: 0%;
+}
+
     .showreel-container audio {
     float: right;
 }
+
+.cv-container h1 {
+     width: 100%;
+    font-size: 25px;
+    margin-left: 0%;
+}
+
     .cv-container iframe {
         display: none;
     }
@@ -633,6 +687,12 @@ footer {
         padding-right: 0;
         margin: 0;
         text-align: center;
+    }
+
+    .contact-container h1{
+         width: 100%;
+    font-size: 25px;
+    margin-left: 0%;
     }
 
     .agent-details {
