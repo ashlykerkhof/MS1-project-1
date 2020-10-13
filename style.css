@@ -100,6 +100,12 @@ nav ul li a {
     height: 3px;
 }
 
+.block-divider2 {
+    background-color: #284b63;
+    margin-top: 30px;
+    width: 50%;
+    height: 3px;
+}
 /*-------------------callout container-----------*/
 
 
@@ -190,6 +196,8 @@ nav ul li a {
 }
 
 .jumbotron p {
+    margin-bottom: 10px;
+    padding-top: 10px;
     font-size: 20px;
     text-decoration: solid;
     color: #d9d9d9;
@@ -200,10 +208,15 @@ nav ul li a {
 .btn {
     border-radius: 25px;
     background-color: #3c6e71;
+    color: #d9d9d9;
     margin-top: 10px;
     padding-left: 30px;
     padding-right: 30px;
     
+}
+
+.btn:hover {
+    color: #d9d9d9;
 }
 
 /*---------about-------*/
@@ -377,11 +390,13 @@ nav ul li a {
 .material {
     padding-top: 5%;
     padding-right: 10px;
+    margin-bottom: 20px;
 }
 
 .showreel-container audio {
     padding-right: 30px;
     padding-left: 10px;
+    margin-bottom: 20px;
 }
 
 /*------------CV------------*/
@@ -438,6 +453,8 @@ nav ul li a {
     background-color: #353535;
     padding-top: 15px;
     padding-left: 5px;
+    margin-top: 10px;
+    margin-right: 20px;
 }
 
 .footer-contact {
@@ -445,6 +462,8 @@ nav ul li a {
 }
 
 .agent-details {
+    padding-left: 20px;
+    margin-top: 10px;
     float: left;
     background-color: #353535;
 }
