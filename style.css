@@ -252,8 +252,19 @@ nav ul li a {
     display: flex;
     margin-left: 70px;
     border-radius: 40%;
-    border: 3px solid #fff;
+    border: 3px solid #fff; 
 }
+
+.picture-circle:hover {   
+    transform-origin:50% 50%;
+    animation:2.5s rotateRight infinite linear; 
+}
+
+@keyframes rotateRight{
+    100%{ transform:rotate(360deg); }
+}
+
+
 
 /*----------gallery-------*/
 
