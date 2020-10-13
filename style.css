@@ -92,6 +92,9 @@ nav ul li a {
 }
 
 
+
+
+
 /*-----------blockdivider-----------*/
 
 .block-divider {
@@ -215,6 +218,7 @@ nav ul li a {
 
 .btn {
     border-radius: 25px;
+    border: 0;
     background-color: #3c6e71;
     color: #d9d9d9;
     margin-top: 10px;
@@ -225,6 +229,24 @@ nav ul li a {
 
 .btn:hover {
     color: #d9d9d9;
+}
+
+#submit {
+    border: 0;
+}
+
+#submit:hover {
+    background-color: #284b63;
+    border: 0;
+}
+
+#close {
+    border: 0;
+}
+
+#close:hover {
+    background-color: #284b63;
+    border: 0;
 }
 
 /*---------about-------*/
