@@ -23,7 +23,7 @@ body {
       font-family: "Courgette", sans-serif;
       color: #fff;
       font-weight: bold;
-      font-size: 25px;
+      font-size: 40px;
       letter-spacing: 2px;
 }
 
@@ -108,7 +108,7 @@ nav ul li a {
 }
 
 .hero-image {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Ash11.jpg) fixed ;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(Ash11.jpg) fixed ;
     height: 100%;
     background-position: center top;
     background-repeat: no-repeat;
@@ -166,7 +166,7 @@ nav ul li a {
 /*-----------jumbotron------------*/
 
 .jumbotron {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.4);
     margin-top: 10%;
     margin-left: 20%;
     margin-right: 20%;
@@ -201,7 +201,7 @@ nav ul li a {
 
 .btn {
     border-radius: 25px;
-    background-color: #284b63;
+    background-color: #3c6e71;
     margin-top: 10px;
     padding-left: 30px;
     padding-right: 30px;
@@ -360,7 +360,7 @@ nav ul li a {
 }
 
 .showreel-container p {
-    margin-top: 30px;
+    
     margin-bottom: 50px;
 }
 
@@ -398,6 +398,10 @@ nav ul li a {
     position: relative;
     left: 0;
     }
+
+.cv-container h3{
+    padding-top: 30px;
+}
 
 /*--------email--------*/
 
