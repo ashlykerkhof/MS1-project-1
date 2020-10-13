@@ -696,6 +696,18 @@ only screen and (min-device-pixel-ratio: 1.5){
     margin-left: 0%;
     }
 
+    .form-left {
+        padding-right: 15px;
+        float: left;
+    }
+
+    .form-left label {
+        float: left;
+    }
+
+    .form-group {
+        padding-top: 5px;
+    }
     .agent-details {
         display: none;
     }
