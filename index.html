@@ -6,38 +6,44 @@
     <title>Ashly Kerkhof</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Lato:100,200,300,400,500,600,700,800.900|Oswald:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-md sticky-top">
-  <a href="#home" class="navbar-logo mr-auto hvr-pop">Ashly Kerkhof</a>
-
-    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbar"
-    aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-
-  <div class="collapse navbar-collapse" id="navbar">
-  <ul class="navbar-nav ml-auto" >
-    <li class="nav-item mr-2"><a class="hvr-pop" href="#about">About</a></li>
-    <li class="nav-item mr-2"><a class="hvr-pop" href="#gallery">Gallery</a></li>
-    <li class="nav-item mr-2"><a class="hvr-pop" href="#showreel">Showreel</a></li>
-    <li class="nav-item mr-2"><a class="hvr-pop" href="#resume">Resume</a></li>
-    <li class="nav-item mr-2"><a class="hvr-pop" href="#">Contact</a></li>
-  </ul>
-  </div>
-</nav>
+    <header>
+            <nav class="">
+               <div class="menu-icon">
+                  <i class="fa fa-bars fa-2x"></i>
+               </div>
+               <div class="logo">
+                 <a class="hvr-pulse-grow" href="#">Ashly Kerkhof</a> 
+               </div>
+               <div class="menu">
+                  <ul>
+                     <li><a class="hvr-pulse-grow" href="#">Home</a></li>
+                     <li><a class="hvr-pulse-grow" href="#">About</a></li>
+                     <li><a class="hvr-pulse-grow" href="#">Showreel</a></li>
+                     <li><a class="hvr-pulse-grow" href="#">Resume</a></li>
+                     <li><a class="hvr-pulse-grow" href="#">Contact</a></li>
+                  </ul>
+               </div>
+               
+            </nav>
+         </header>
 
 <!----Main Headers-->
 
-   <div class="container-fluid callout-container" id="home">
-        
+   <div class="callout-container" id="home">
+        <div class="hero-image">
         <div class="row">
             <div class="col-12 col-md-12 col-sm-12">
                 <section class=" jumbotron text-center">
                     <h1 class="jumbotron-header">Ashly Kerkhof</h1>
                     <hr class="block-divider">
                     <h4 class="lead">Actor - musician</h4>
+                    <p>Any Projects let me know, I look forward to hearing from you!</p>
                     <p><button type="button" class="btn hvr-pulse-grow" data-toggle="modal" data-target="#signUpModal">Contact!</button></p>
                     <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
@@ -45,7 +51,7 @@
                             <div class="modal-header">
                                 <h5 class="modal-title" id="exampleModalLabel">Contact Me</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
+                                <span aria-hidden="true">×</span>
                                 </button>
                             </div>
                             <div class="modal-body">
@@ -82,28 +88,38 @@
         </div>
     </div>
 </div>
+   </div>
 
    <!----About-->
    
-<section class="about-container text-center" id="about">
+<section class="about-container container-fluid" id="about">
     <div class="row">
-        <div class="col-12">
+        <div class="col-md-12">
             <div class="about">
                 <h1>About me</h1>
+                <div class="row">
+                <div class="col-md-4 col-sm-12">
                  <p>
-                            Ashly Kerkhof was born in raised in Peterborough, United Kingdom, before moving to London to live and study from the age of 20. Ashly studied at Tech Music school for a year before enlisting in to the Royal Central school of Speech and Drama, where he studied the art of acting, dancing, and acting through song. </p>
+                            Ashly Kerkhof was born in raised in Peterborough, United Kingdom, before moving to London to live and study from the age of 20. Ashly studied at Tech Music school for a year before enlisting in to the Royal Central school of Speech and Drama, where he studied the art of acting, dancing, and acting through song.</p> 
                         <p>
                             Since Graduating Ash has been around the world performing in certain destinations such as, Maldives, Oman, Venice and his latest adventure which took him to the seas of the Caribbean.</p>
-                        <p>
+                </div>
+                <div class="col-md-4">
+                    <img class="picture-circle" src="Ash.jpg" alt="picture of Ash">
+                </div>
+                <div class="col-md-4 col-sm-12">
+                        <p class="rightp">
                     
-                            Many of Ash’s credits include… Syd Normans Pour House (performed on Norwegian Cruise line, directed by the producer of Rock of Ages), Frankies Guys ( a Frankie Valli tribute band that toured Ireland for 4 months), but mostly known for his work as the front man in Fully Funktional, which he has been apart of for over 4 years.</p>
-                        <p>
+                            Many of Ash’s credits include… Syd Normans Pour House (performed on Norwegian Cruise line, directed by the producer of Rock of Ages), Frankies Guys ( a Frankie Valli tribute band that toured Ireland for 4 months), but mostly known for his work as the front man in Fully Funktional, which he has been apart of for over 4 years.
+                       
                             Ash wants to broaden his horizon and perform on West End, his dream shows are.. Rock of Ages, Bat out of Hell and Jesus Christ Superstar.</p>
                         <p>
                             Ash has also dabbled in film and tv and is capable of performing infront of camera, check out his showreel below!
                     </p>
+                </div>
                     <hr class="block-divider">
                 </div>
+            </div>
             </div>
         </div>
 </section>
@@ -129,39 +145,47 @@
     <div class="showreel-container container-fluid" id="showreel">
         <div class="row">
             <div class="col-12">
-                <h1 class="text-center">Showreel</h1>
+            <div class="showreel">
+                <h1>Showreel</h1>
             </div>
-            
+            <div class="material">
+            <div class="row">
             <div class="col-md-6 col-sm-12">
                     <div class="first embed-responsive embed-responsive-21by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/0hJKN5t7MqE" allowfullscreen></iframe>
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/0hJKN5t7MqE" allowfullscreen=""></iframe>
                 </div>
             </div>
             <div class="col-md-6 col-sm-12">
                 
                     <div class="second embed-responsive embed-responsive-21by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MwZdqrCIoi0" allowfullscreen></iframe>
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MwZdqrCIoi0" allowfullscreen=""></iframe>
                 </div>
             </div> 
             </div>
+            </div>
+            </div>
             <hr class="block-divider">    
                 <div class="row">
-                <div class="col-md-4">
+                <div class="col-lg-3 col-md-3 col-sm-12">
                     <label for="sung">Sung Voice Reel</label>
-                    <audio controls src="sungvoice.mp3" id="sung" >Sung Voice Reel</audio>
+                    <audio controls="" src="sungvoice.mp3" id="sung">Sung Voice Reel</audio>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-3 col-md-3 col-sm-12">
                     <label for="brother">Burying your brother</label>
-                    <audio controls src="brother.mp3" id="brother" >Burying your Brother in the Pavement - Monologue</audio>
+                    <audio controls="" src="brother.mp3" id="brother">Burying your Brother in the Pavement - Monologue</audio>
                 </div>
-                <div class="col-md-4">
-                    <label for="classic">Twelth Night</label>
-                    <audio controls src="classic.mp3" id="classic" >Twelth Night</audio>
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <label class="text-center" for="classic1">Twelth Night</label>
+                    <audio controls="" src="classic.mp3" id="classic1">Twelth Night</audio>
+                </div>
+                 <div class="col-lg-3 col-md-3 col-sm-12">
+                    <label class="text-center" for="classic">Rock of Ages</label>
+                    <audio controls="" src="Rock of Ages.mp3" id="classic">Rock of Ages</audio>
                 </div>
                 </div>
                 <hr class="block-divider">
                 </div>
-                
+    </div>
     </section>
 <section>
     <div class="cv-container container-fluid" id="resume">
@@ -245,7 +269,26 @@
             </div>
         </div>
     </footer>
-    
+
+     <script>
+                $(document).ready(function() {
+                $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+             });
+         });
+
+      // Scrolling Effect
+
+                 $(window).on("scroll", function() {
+                if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+             }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+</script>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
