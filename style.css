@@ -572,6 +572,9 @@ only screen and (min-device-pixel-ratio: 1.5){
     width:100%;
     overflow-x:hidden;
   }
+}
+
+@media only screen and (max-width: 764px){
 
 
   nav {
