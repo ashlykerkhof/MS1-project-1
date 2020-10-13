@@ -129,6 +129,14 @@ nav ul li a {
         
 }
 
+.modal-header {
+    background-color: #d9d9d9;
+}
+
+.modal-body {
+    background-color: #353535;
+    font-family: 'Raleway', sans-serif;
+}
 
 /*------------hover from hover.css---------*/
 
