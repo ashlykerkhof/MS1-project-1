@@ -503,14 +503,15 @@ nav ul li a {
     background-color: #353535;
 }
 
-.agent-details h3 {
+.agent-details h4 {
     padding-top: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
+    color: #fafafa;
 }
 
 .agent-details h6 {
-    padding-bottom: 25px;
-    margin-top: 40px;
+    padding-bottom: 20px;
+    margin-top: 50px;
     color: #fafafa;
     font-family: 'Raleway', sans-serif;
 }
@@ -688,7 +689,8 @@ footer {
 
 /*----------------media--------------*/
 
-@media screen and (max-width:1024px){
+@media only screen and (max-device-width: 1100px){
+  
     
 html,
   body{
@@ -696,13 +698,57 @@ html,
     overflow-x:hidden;
   }
 
-.logo a{
-    font-size: 30px;
+ .logo a{
+            position: fixed;
+            top: 0;
+            margin-top: 12px;
+            font-size: 20px;
+      }
+
+
+nav ul {
+            max-height: 0px;
+            background: #000;
+      }
+
+      nav.black ul {
+            background: #000;
+      }
+
+      .showing {
+            max-height: 34em;
+      }
+
+      nav ul li {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 24px;
+            text-align: center;
+      }
+
+      .menu-icon {
+            display: block;
+      }
+
+      col-6 {
+          max-width: 100%;
+      }
+
+.about-container p {
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    text-align: center;
 }
 
-nav ul li a {
-    font-size: 16px;
-
+.picture-circle {
+    width: 50%;
+    height: 50%;
+    margin-left: 24%;
+    padding-top: 0;
+    padding-bottom: 0;
+    
 }
 
     footer {
@@ -712,10 +758,10 @@ nav ul li a {
     .social-media-links {
     
     text-align: center;
-    letter-spacing: 15px;
+    letter-spacing: 10px;
     list-style: none;
     color: #3c6e71;
-    font-size: 35px;
+    font-size: 30px;
     }
     .social-media-links i{
      font-size: 120%;
@@ -723,11 +769,15 @@ nav ul li a {
      padding: 10px 10px;
      color: #3c6e71;
  }
+
+.agent-details {
+    display: none;
+}
 }
 
 
 
-@media only screen and (max-width: 764px){
+@media only screen and (max-width: 720px) {
 
 html,
   body{
@@ -835,6 +885,11 @@ html,
 
     .cv-container iframe {
         display: none;
+    }
+
+    .contact-container {
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .contact-container h1 {
