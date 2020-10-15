@@ -1,6 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+
 
 body {
     font-family: "Courgette", sans-serif;
@@ -117,9 +119,9 @@ nav ul li a {
 }
 
 .hero-image {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(Ash11.jpg) fixed ;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(ash-land2.jpg) fixed ;
     height: 100%;
-    background-position: center top;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -556,8 +558,10 @@ footer {
     width: 100%;
 }
 
-.copy {
+.copyright {
     color: #fafafa;
+    margin-top: 35px;
+    font-size: 15px;
     }
 
  .social-media-links {
@@ -877,13 +881,20 @@ html,
         width: 100%;
         
     }
+
+    .copyright{
+        font-size: 10px;
+        display: inline;
+        text-align: left;
+    }
     .social-media-links {
     
-    text-align: left;
+    text-align: right;
     letter-spacing: 10px;
     list-style: none;
     color: #3c6e71;
-    font-size: 35px;
+    font-size: 25px;
+    display: inline;
     }
     .social-media-links i{
      font-size: 80%;
