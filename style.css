@@ -33,7 +33,7 @@ nav {
       position: fixed;
       width: 100%;
       line-height: 60px;
-      z-index: 1;
+      z-index: 20;
 }
 
 nav ul {
@@ -118,22 +118,6 @@ nav ul li a {
     width: 100%;
 }
 
-.hero-image {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(ash-land2.jpg) fixed ;
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    width: 100%;
-    padding-bottom: 5%;
-    flex: 1;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        
-}
-
 .modal-header {
     background-color: #d9d9d9;
 }
@@ -142,6 +126,64 @@ nav ul li a {
     background-color: #353535;
     font-family: 'Raleway', sans-serif;
    
+}
+.carousel {
+    height: 700px;
+}
+
+.carousel-inner .carousel-item img {
+    height: 700px;
+    padding-bottom: -20%;
+    z-index: -20;
+    object-fit: cover;
+    position: top;
+}
+
+
+@media(max-width:768px){
+.carousel .carousel-inner{
+
+height:auto;
+ }
+}
+
+.carousel-fade .carousel-item {
+	opacity: 0;
+	transition-duration: .6s;
+	transition-property: opacity;
+    z-index: -20;
+    height: 20%;
+}
+
+.carousel-fade .carousel-item.active,
+.carousel-fade .carousel-item-next.carousel-item-left,
+.carousel-fade .carousel-item-prev.carousel-item-right {
+	opacity: 1;
+}
+
+.carousel-fade .active.carousel-item-left,
+.carousel-fade .active.carousel-item-right {
+	opacity: 0;
+}
+
+.carousel-fade .carousel-item-next,
+.carousel-fade .carousel-item-prev,
+.carousel-fade .carousel-item.active,
+.carousel-fade .active.carousel-item-left,
+.carousel-fade .active.carousel-item-prev {
+	transform: translateX(0);
+	transform: translate3d(0, 0, 0);
+}
+
+.carousel-content {
+  position: absolute;
+  
+  bottom: 20%;
+
+  left: 10%;
+  z-index: 20;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
 }
 
 
@@ -187,16 +229,41 @@ nav ul li a {
 
 .jumbotron {
     background-color: rgba(0, 0, 0, 0.4);
-    margin-top: 10%;
+    margin-top: 40%;
     margin-left: 20%;
-    margin-right: 20%;
-    margin-bottom: 20px;
+    margin-right: 10%;
+    margin-bottom: 0%;
+    bottom: 20%;
+    z-index: 20;
+    position: absolute;
+}
+
+.jumbotron1 {
+    background-color: transparent;
+    margin-top: 0%;
+    margin-left: 50%;
+    margin-right: 10%;
+
+    padding-top: 40px;
+    z-index: 20;
+    position: absolute;
+}
+
+.jumbotron2 {
+    background-color: transparent;
+    margin-top: 5%;
+    margin-left: 0%;
+    margin-right: 50%;
+    bottom: 10%;
+    padding-top: 0px;
+    z-index: 20;
+    position: absolute;
 }
 
 .jumbotron h1 {
     color: #d9d9d9;
     font-size: 80px;
-    font-weight: bold;
+    font-weight: block bold;
     margin-bottom: 15px;
     text-transform: capitalize;
 }
@@ -212,6 +279,61 @@ nav ul li a {
 }
 
 .jumbotron p {
+    margin-bottom: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    text-decoration: solid;
+    color: #d9d9d9;
+    font-family: 'Raleway', sans-serif;
+}
+
+.jumbotron1 h1 {
+    color: #d9d9d9;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+
+
+.jumbotron1 .lead {
+        font-size: 60px;
+        margin: 0px 0;
+        color: #d9d9d9;
+        padding-bottom: 5px;
+        font-family: 'Raleway', sans-serif;
+}
+
+.jumbotron1 p {
+    margin-bottom: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    text-decoration: solid;
+    color: #d9d9d9;
+    font-family: 'Raleway', sans-serif;
+}
+
+.jumbotron2 h1 {
+    color: #d9d9d9;
+    font-size: 30px;
+    margin-top: 30%;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+
+
+.jumbotron2 .lead {
+        font-size: 60px;
+        margin: 0px 0;
+        color: #d9d9d9;
+        padding-bottom: 5px;
+        font-family: 'Raleway', sans-serif;
+}
+
+.jumbotron2 p {
     margin-bottom: 10px;
     padding-top: 10px;
     font-size: 20px;
