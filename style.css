@@ -9,7 +9,10 @@ body {
     margin: 0;
     padding: 0;
     border: 0;
+    height: 100%;
     overflow-x: hidden;
+    position: relative;
+    overflow-y: scroll;
 }
 
 
@@ -993,6 +996,9 @@ html,
         margin-top: 140px;
        margin-bottom: 100px;
         padding-bottom: 50px;
+        bottom: 5%;
+        right: 10%;
+        left: 5%;
     }
 
     .jumbotron h1 {
@@ -1013,10 +1019,12 @@ html,
        margin-bottom: 100px;
         padding-bottom: 50px;
         bottom: 5%;
+        right: 5%;
+
     }
 
     .jumbotron1 .jumbotron-header {
-        font-size: 20px;
+        font-size: 15px;
         margin-top: 20px;
     }
 
@@ -1024,12 +1032,13 @@ html,
         margin-top: 140px;
        margin-bottom: 100px;
         padding-bottom: 50px;
-        bottom: 5%;
+        bottom: 2%;
     }
 
     .jumbotron2 h1 {
-        font-size: 20px;
+        font-size: 15px;
         margin-top: 20px;
+        bottom: 2%;
     }
 
     
