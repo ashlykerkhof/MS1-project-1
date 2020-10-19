@@ -878,12 +878,18 @@ html,
     width:100%;
     overflow-x:hidden;
   }
+.logo a{
+            position: fixed;
+            top: 0;
+            margin-top: 2px;
+            font-size: 20px;
+           
+      }
 
-.logo a img {
-    margin-top: 0px;
-    margin-bottom: 20px;
-    bottom: 10%;
-}
+    .logo a img {
+        margin-right: 20px;
+        margin-top: 2px;
+    }
 
 
 nav ul {
@@ -913,6 +919,56 @@ nav ul {
       .col-6 {
           max-width: 100%;
       }
+
+      jumbotron {
+        margin-top: 140px;
+       margin-bottom: 100px;
+        padding-bottom: 50px;
+        bottom: 5%;
+        right: 10%;
+        left: 5%;
+    }
+
+    .jumbotron h1 {
+        font-size: 40px;
+        margin-top: 20px;
+    }
+
+    .jumbotron .lead {
+        font-size: 20px;
+    }
+
+    .jumbotron p {
+        font-size: 15px;
+    }
+
+    .jumbotron1 {
+        margin-top: 140px;
+       margin-bottom: 100px;
+        padding-bottom: 50px;
+        bottom: 5%;
+        right: 5%;
+
+    }
+
+    .jumbotron1 .jumbotron-header {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .jumbotron2 {
+        margin-top: 140px;
+       margin-bottom: 100px;
+        padding-bottom: 50px;
+        bottom: 2%;
+    }
+
+    .jumbotron2 h1 {
+        font-size: 20px;
+        margin-top: 20px;
+        bottom: 2%;
+    }
+
 
 .about-container p {
     padding-bottom: 0px;
