@@ -961,7 +961,32 @@ html,
         font-size: 15px;
     }
 
+    .jumbotron1 {
+        margin-top: 140px;
+       margin-bottom: 100px;
+        padding-bottom: 50px;
+        bottom: 5%;
+    }
 
+    .jumbotron1 .jumbotron-header {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .jumbotron2 {
+        margin-top: 140px;
+       margin-bottom: 100px;
+        padding-bottom: 50px;
+        bottom: 5%;
+    }
+
+    .jumbotron2 h1 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    
+    
     .hero-image {
         background-size: fixed;
     }
