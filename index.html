@@ -23,7 +23,7 @@
                <div class="logo">
                  <a class="hvr-pulse-grow" href="#"><img src="logo.png" alt=""></a> 
                </div>
-               <div class="menu">
+               <div class="menu" id="menu">
                   <ul>
                      <li><a class="hvr-pulse-grow" href="#home"><i class="fa fa-home"></i> Home</a></li>
                      <li><a class="hvr-pulse-grow" href="#about"><i class="fa fa-comment" ></i> About</a></li>
@@ -364,6 +364,11 @@
                   $('nav').removeClass('black');
             }
       })
+
+    $('#menu li a').on('click', function(){
+        $("#menu").hide();
+        $("#menu-icon").removeClass("active");
+    });
 </script>
 <!--Floatpanel.com used from website-->
     <script src="float-panel.js"></script>
