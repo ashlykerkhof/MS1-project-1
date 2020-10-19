@@ -893,7 +893,7 @@ nav ul {
             display: block;
       }
 
-      col-6 {
+      .col-6 {
           max-width: 100%;
       }
 
@@ -955,11 +955,13 @@ html,
     .logo a{
             position: fixed;
             top: 0;
-            margin-top: 0px;
+            margin-top: 2px;
             font-size: 20px;
+           
       }
 
     .logo a img {
+        margin-right: 20px;
         margin-top: 2px;
     }
 
