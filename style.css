@@ -145,9 +145,18 @@ nav ul li a {
 }
 
 .modal-body {
-    background-color: #353535;
+    background-color: #d9d9d9;
     font-family: 'Raleway', sans-serif;
    
+}
+
+.modal-body p {
+    color: #353535;
+    font-family: 'Raleway', sans-serif;
+}
+
+.modal-footer {
+    background-color: #d9d9d9;
 }
 .carousel {
     height: 700px;
@@ -157,6 +166,7 @@ nav ul li a {
     height: 700px;
     padding-bottom: -20%;
     z-index: -20;
+   
     object-fit: cover;
     position: top;
 }
@@ -172,6 +182,7 @@ height:auto;
 .carousel-fade .carousel-item {
 	opacity: 0;
 	transition-duration: .6s;
+    
 	transition-property: opacity;
     z-index: -20;
     height: 20%;
@@ -250,7 +261,7 @@ height:auto;
 /*-----------jumbotron------------*/
 
 .jumbotron {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: transparent;
     margin-top: 40%;
     margin-left: 20%;
     margin-right: 10%;
@@ -284,10 +295,13 @@ height:auto;
 
 .jumbotron h1 {
     color: #d9d9d9;
-    font-size: 80px;
+    font-size: 120px;
     font-weight: block bold;
     margin-bottom: 15px;
+    letter-spacing: 2px;
     text-transform: capitalize;
+    padding-left: 0%;
+    right: 20%;
 }
 
 
