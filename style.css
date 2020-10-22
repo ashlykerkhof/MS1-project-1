@@ -609,7 +609,7 @@ height:auto;
 
 .showreel-container p {
     
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .material {
@@ -620,8 +620,15 @@ height:auto;
 
 .showreel-container audio {
     padding-right: 30px;
-    padding-left: 10px;
+    padding-left: 30px;
     margin-bottom: 20px;
+    margin-left: 10%;
+}
+
+.audiop {
+    margin-bottom: -5px;
+    padding-bottom: 0;
+    text-align: center;
 }
 
 /*------------CV------------*/
@@ -1156,6 +1163,13 @@ html,
 
     .showreel-container audio {
     float: right;
+}
+
+.audiop {
+    text-align: left;
+    display: inline;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .cv-container h1 {
