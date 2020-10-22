@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
     <link href="https://fonts.googleapis.com/css2?family=Lato:100,200,300,400,500,600,700,800.900|Oswald:100,200,300,400,500,600,700,800,900|Courgette:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
@@ -142,9 +144,10 @@
         <div class="col-md-12">
             <div class="about">
                 <h1>About me</h1>
-                <div class="row slideanim">
+                <a id="button"><h2>Click Here for my Story!</h2></a>
+                <div class="row slideanim" id="item" style="display:none;">
                 <div class="col-lg-4 col-md-12">
-                <div class="animation-element slide-left testimonial">
+                <div class="animation-element testimonial">
                  <p>
                             Ashly Kerkhof was born in raised in Peterborough, United Kingdom, before moving to London to live and study from the age of 20. Ashly studied at Tech Music school for a year before enlisting in to the Royal Central school of Speech and Drama, where he studied the art of acting, dancing, and acting through song.</p> 
                         <p>
@@ -370,6 +373,16 @@
         $("#menu-icon").removeClass("active");
     });
 </script>
+
+<script>
+$('#button').click(function(e){
+    e.preventDefault(); 
+    $('#item').toggle();
+});
+</script>
+
+
+
 <!--Floatpanel.com used from website-->
     <script src="float-panel.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

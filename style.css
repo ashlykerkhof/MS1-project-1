@@ -447,7 +447,14 @@ height:auto;
     margin-bottom: 50px;
     padding-left: 15px;
     padding-right: 15px;
+   
 }
+
+#button h2 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
 
 .picture-circle {
     width: 70%;
@@ -457,6 +464,7 @@ height:auto;
     margin-left: 70px;
     border-radius: 40%;
     border: 3px solid #fff; 
+    
 }
 /*-----------------slackoverflow----------*/
 
