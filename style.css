@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&display=swap');
 
 body {
     font-family: "Courgette", sans-serif;
@@ -82,7 +82,8 @@ nav ul li i {
 nav ul li a {
       text-decoration: none;
       color: #fff;
-      font-size: 18px;
+      font-family: 'Raleway', sans-serif;
+      font-size: 20px;
       margin-top: 10px;
 }
 
@@ -160,17 +161,22 @@ nav ul li a {
 }
 .carousel {
     height: 700px;
+
 }
 
 .carousel-inner .carousel-item img {
     height: 700px;
     padding-bottom: -20%;
     z-index: -20;
-   
+
     object-fit: cover;
     position: top;
 }
 
+.carousel-item img {
+    background-color: rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.3s linear 0.3s both; 
+}
 
 @media(max-width:768px){
 .carousel .carousel-inner{
@@ -182,7 +188,7 @@ height:auto;
 .carousel-fade .carousel-item {
 	opacity: 0;
 	transition-duration: .6s;
-    
+
 	transition-property: opacity;
     z-index: -20;
     height: 20%;
@@ -210,15 +216,34 @@ height:auto;
 
 .carousel-content {
   position: absolute;
-  
+  font-family: 'Raleway', sans-serif;
   bottom: 20%;
-
+  animation: fadeIn 0.8s linear 0.8s both; 
   left: 10%;
   z-index: 20;
   color: white;
   text-shadow: 0 1px 2px rgba(0,0,0,.6);
 }
 
+@keyframes roll{
+	0% {transform: translateX(500px) rotate(360deg); opacity: 0;}
+	100% {transform: translateX(0px) rotate(0deg); opacity: 1;}
+}
+
+@keyframes moveUp{
+	0% {transform: translateY(40px);}
+	100% {transform: translateY(0px);}
+}
+
+@keyframes fadeIn{
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@keyframes fadeOut{
+	0% {opacity: 1;}
+	100% {opacity: 0;}
+}
 
 
 /*------------hover from hover.css---------*/
@@ -295,10 +320,12 @@ height:auto;
 
 .jumbotron h1 {
     color: #d9d9d9;
-    font-size: 120px;
-    font-weight: block bold;
+    font-size: 100px;
+    font-weight: bolder;
     margin-bottom: 15px;
+    text-shadow: #000 2cm;
     letter-spacing: 2px;
+    font-family: 'Raleway',sans-serif;
     text-transform: capitalize;
     padding-left: 0%;
     right: 20%;
@@ -307,9 +334,11 @@ height:auto;
 
 
 .jumbotron .lead {
-        font-size: 60px;
+        font-size: 50px;
         margin: 0px 0;
         color: #d9d9d9;
+        font-weight: bolder;
+        text-shadow: #000 2cm;
         padding-bottom: 5px;
         font-family: 'Raleway', sans-serif;
 }
@@ -327,6 +356,7 @@ height:auto;
     color: #d9d9d9;
     font-size: 40px;
     font-weight: bold;
+    font-family: 'Courgette', sans-serif;
     margin-bottom: 15px;
     text-transform: capitalize;
 }
@@ -356,6 +386,7 @@ height:auto;
     margin-top: 30%;
     font-weight: bold;
     margin-bottom: 15px;
+    font-family: 'Courgette', sans-serif;
     text-transform: capitalize;
 }
 
