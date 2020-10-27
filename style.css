@@ -647,6 +647,15 @@ height:auto;
     padding-top: 5%;
     padding-right: 10px;
     margin-bottom: 20px;
+    
+}
+
+.material .first {
+    box-shadow:5px 3px 10px #000;
+}
+
+.material .second {
+    box-shadow:5px 3px 10px #000;
 }
 
 .showreel-container audio {
@@ -665,9 +674,9 @@ height:auto;
 /*------------CV------------*/
 
 .cv-container {
-    background-color: #353535;
+    background-color: #d9d9d9;
     padding-bottom: 35px;
-    color: #fafafa;
+    color: #353535;
     text-align: center;
     width: 100%;
     max-width: 100%;
@@ -702,17 +711,18 @@ height:auto;
     margin-right: px;
     border: 0; 
     padding-bottom: 5px;
-    color: #fafafa; 
+    color: #353535; 
 }
 
 .form-group {
-    color: #fafafa;
+    color: #353535;
     margin-left: 10px;
     font-family: 'Raleway', sans-serif;
 }
 
 .form-left {
-    background-color: #353535;
+    background-color: #d9d9d9;
+    box-shadow:5px 3px 10px #000;
     padding-top: 15px;
     padding-left: 5px;
     margin-top: 10px;
@@ -727,19 +737,20 @@ height:auto;
     padding-left: 20px;
     margin-top: 10px;
     float: left;
-    background-color: #353535;
+    box-shadow:5px 3px 10px #000;
+    background-color: #d9d9d9;
 }
 
 .agent-details h4 {
     padding-top: 40px;
     margin-bottom: 35px;
-    color: #fafafa;
+    color: #353535;
 }
 
 .agent-details h6 {
     padding-bottom: 20px;
     margin-top: 50px;
-    color: #fafafa;
+    color: #353535;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -747,12 +758,12 @@ height:auto;
     font-size: 15px;
     font-weight: bold;
     text-align: center;
-    color: #fafafa;
+    color: #353535;
     font-family: 'Raleway', sans-serif;
 }
 
 .contact-container {
-    background-color: #D9D9D9;
+    background-color: #353535;
     padding-bottom: 100px;
     color: #353535;
     text-align: center;
@@ -770,11 +781,11 @@ height:auto;
     text-transform: uppercase;
     text-decoration: solid;
     border: solid #0d1b2a;
-    color: #353535;
+    color: #d9d9d9;
 }
 
 .contact-container h3 {
-    color: #353535;
+    color: #d9d9d9;
     margin-bottom: 1rem;
 }
 
