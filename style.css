@@ -159,6 +159,9 @@ nav ul li a {
 .modal-footer {
     background-color: #d9d9d9;
 }
+
+/*------Carousel------*/
+
 .carousel {
     height: 700px;
 
@@ -166,11 +169,9 @@ nav ul li a {
 
 .carousel-inner .carousel-item img {
     height: 700px;
-    padding-bottom: -20%;
     z-index: -20;
 
     object-fit: cover;
-    position: top;
 }
 
 .carousel-item img {
@@ -323,7 +324,6 @@ height:auto;
     font-size: 100px;
     font-weight: bolder;
     margin-bottom: 15px;
-    text-shadow: #000 2cm;
     letter-spacing: 2px;
     font-family: 'Raleway',sans-serif;
     text-transform: capitalize;
@@ -338,7 +338,6 @@ height:auto;
         margin: 0px 0;
         color: #d9d9d9;
         font-weight: bolder;
-        text-shadow: #000 2cm;
         padding-bottom: 5px;
         font-family: 'Raleway', sans-serif;
 }
@@ -552,7 +551,6 @@ height:auto;
     height: 100%;
     background-position: center top;
     background-size: cover;
-    background-repeat: none;
     transition: flex 0.8s ease;
     }
 
@@ -608,7 +606,7 @@ height:auto;
     animation: slide 1s;
 }
 .slideanim::after {
-    /* useful when its child elements are float:left; */
+    float:left;
     content: "";
     display: table;
     clear: both;
@@ -708,7 +706,6 @@ height:auto;
 
 .form-row { 
     margin-left: 11px;
-    margin-right: px;
     border: 0; 
     padding-bottom: 5px;
     color: #353535; 
@@ -726,7 +723,7 @@ height:auto;
     padding-top: 15px;
     padding-left: 5px;
     margin-top: 10px;
-    margin-right: px;
+
 }
 
 .footer-contact {
@@ -927,10 +924,8 @@ footer {
 
 /*----------------media--------------*/
 
-@media only screen and (max-device-width: 1100px){
+@media only screen and (max-width: 1100px){
   
-    
-html,
   body{
     width:100%;
     overflow-x:hidden;
@@ -1166,12 +1161,6 @@ html,
         font-size: 15px;
         margin-top: 20px;
         bottom: 2%;
-    }
-
-    
-    
-    .hero-image {
-        background-size: fixed;
     }
 
     .picture-circle {
