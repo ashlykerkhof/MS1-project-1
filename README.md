@@ -73,7 +73,7 @@ In my mind this is the best way for an actor to martket themselves.
 A couple of things i would want as a user;
 
 1. I want to be able to traverse the page simply, so i can see all i need to see without wasting to much time.
-2. i want to see everything on one page so i don't have to load up different tabs to favoiurite the work.
+2. i want to see everything on one page so i don't have to load up different tabs to favourite the work.
 3. i want to be able to contact the actor using the contact button at the moment, i'd also like to be able to contact the agent if needed.
 4. i want the gallery to be interactive and appealing to the eye, so i can scroll through pictures quick and easy.
 
@@ -86,18 +86,28 @@ A couple of things i would want as a user;
 
 As you can see the website is responsive on all devices.
 
+<!--TESTING-->
+
+## Tests
+
+1. [W3Validator](W3-validator)
+2. [CSSValidator](Css-Validator)
+3. [JavascriptValidator](Javascript-validator)
 
 <!-- LICENSE -->
 ## License
 
 Copyright and lincensing done by me. 
 
+<!-- Media -->
+## Media
 
+Media is used from own headshot sessions. Photography Samuel black and Michael Wharley.
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/Ashlykerkhof) - email: Ashly.Kerkhof@outlook.com
+Your Name - [@ashlykerkhof](https://twitter.com/Ashlykerkhof) - email: Ashly.Kerkhof@outlook.com
 
 Project Link: [https://github.com/ashlykerkhof/ms1-project-1](https://github.com/ashlykerkhof/ms1-project-1)
 
@@ -106,7 +116,7 @@ Project Link: [https://github.com/ashlykerkhof/ms1-project-1](https://github.com
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* [FloatPanel] (Float Panel)
+* [Float Panel](Float-panel)
 * [W3school](W3school)
 * [Slack](Slack)
 
