@@ -21,11 +21,7 @@
     <a href="https://github.com/ashlykerkhof/ms1-project-1"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/ashlykerkhof/ms1-project-1">View Demo</a>
-    ·
-    <a href="https://github.com/ashlykerkhof/ms1-proj3ect-1/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/ashlykerkhof/ms1/issues">Request Feature</a>
+    <a href="https://ashlykerkhof.github.io/MS1-project-1/">View Demo</a>
   </p>
 </p>
 
@@ -36,7 +32,12 @@
 
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
+* [UX](#UX)
+  * [User Stories](#use-stories)
+  * [Wireframes](#WireFrames)
+  * [Mockup](#MockUp)
 * [License](#license)
+* [Media](#media)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
 
@@ -58,8 +59,32 @@ The acting page is used to market myself for casting directors and directors, ma
 * [Javascript](Javascript)
 
 
+<!-- User Experience-->
+
+## UX
+
+The project is designed for the use of actors to portray their work to casting directors and directors alike. The website will showcase all of the actors work and achievements, while also keeping the casting directors attention using specific interaction.
+The idea of the site is to make it easier for people to find the actors work rather than having to go through links and doing their own research, as you can see from the site, everything is compact and easy to use. 
+The layout is all on one page to make it easier to traverse and keep the user interested, a nav bar has been situated at the top as well to easily swap between tabs making it quick and easy to get to where they need to go.
+In my mind this is the best way for an actor to martket themselves.
+
+## User Stories
+
+A couple of things i would want as a user;
+
+1. I want to be able to traverse the page simply, so i can see all i need to see without wasting to much time.
+2. i want to see everything on one page so i don't have to load up different tabs to favoiurite the work.
+3. i want to be able to contact the actor using the contact button at the moment, i'd also like to be able to contact the agent if needed.
+4. i want the gallery to be interactive and appealing to the eye, so i can scroll through pictures quick and easy.
+
+## Wireframes
 
 
+## Mockup
+
+<img src="markup.png" alt="Mark up">
+
+As you can see the website is responsive on all devices.
 
 
 <!-- LICENSE -->
