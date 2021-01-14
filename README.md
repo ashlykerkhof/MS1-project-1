@@ -36,6 +36,8 @@
   * [User Stories](#use-stories)
   * [Wireframes](#WireFrames)
   * [Mockup](#MockUp)
+* [Testng](#testing)
+* [Deployment](#deployment)
 * [License](#license)
 * [Media](#media)
 * [Contact](#contact)
@@ -109,6 +111,12 @@ This now been editted and updated on the page.
 3. all audio links, video links and external links all work however, the send email doesn't yet. advancing through the course i did com across the emailjs and api so will rectify this later in my coding journey.
 
 4. navbar doesn't disappear once you have clicked on it on the mobile screen, the way to get rid out it is by clicking the tab which you want to go then pressing the burger on the nav bar, you will notice it takes you to the tab. Hasn't been rectified yet.
+
+<!--Deployment -->
+
+## Deployment
+
+the site has been deployed to GitPages, if needed to update, or edit then please commit and push to GitPages.
 
 <!-- LICENSE -->
 ## License
