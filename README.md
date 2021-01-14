@@ -96,7 +96,7 @@ As you can see the website is responsive on all devices.
 2. [CSSValidator](Css-Validator)
 3. [JavascriptValidator](Javascript-validator)
 
-### W3Validator
+### Testing/Bugs
 
 Done a few tests recently to see if the code was up to scratch, noticed certan things from the test;
 
@@ -104,7 +104,11 @@ Done a few tests recently to see if the code was up to scratch, noticed certan t
 
 This now been editted and updated on the page.
 
+2. a bug that was really annoying me before was the overhang of the landing page picture. it was hanging over the right hand side of the website on both phone and desktop, i couldn't work out why. Spent a long time googling to realise i hadn't set the right measurements in the CSS file, a simple number change and i managed to sort it. However further on during the coding, i decided to change the landing page to have a carousel, which in its self rectified my problem.
 
+3. all audio links, video links and external links all work however, the send email doesn't yet. advancing through the course i did com across the emailjs and api so will rectify this later in my coding journey.
+
+4. navbar doesn't disappear once you have clicked on it on the mobile screen, the way to get rid out it is by clicking the tab which you want to go then pressing the burger on the nav bar, you will notice it takes you to the tab. Hasn't been rectified yet.
 
 <!-- LICENSE -->
 ## License
