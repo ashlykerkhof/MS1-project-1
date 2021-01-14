@@ -79,6 +79,8 @@ A couple of things i would want as a user;
 
 ## Wireframes
 
+<a href="wireframe.pdf" alt="wireframes" target="_blank">WireFrames PDF Here!</a>
+
 
 ## Mockup
 
@@ -93,6 +95,16 @@ As you can see the website is responsive on all devices.
 1. [W3Validator](W3-validator)
 2. [CSSValidator](Css-Validator)
 3. [JavascriptValidator](Javascript-validator)
+
+### W3Validator
+
+Done a few tests recently to see if the code was up to scratch, noticed certan things from the test;
+
+1. Certain code was not processing and there was no need to have it in the project so i removed, such as... background-shadow: or text-shadow: 
+
+This now been editted and updated on the page.
+
+
 
 <!-- LICENSE -->
 ## License
